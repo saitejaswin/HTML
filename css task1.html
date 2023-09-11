@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Task - 1</title>
+    <style>
+        #b1,#box{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        #tab{
+            background-color:rgba(28, 97, 28, 0.155);
+           border-radius: 10px;
+           width: 100%;
+        }
+        #box td{
+           padding-left: 20px;
+           padding-top: 20px;
+        }
+        table td,th{
+            border-radius: 10px;
+        }
+        div{
+            height: 150px;
+            width: 150px;
+            display: flex;
+            border: 3px solid green;
+        }
+        #b1
+        { 
+           border-radius: 3px;
+          
+        }
+        #b2
+        {   
+            border-radius: 10px;
+        }
+        #b3
+        {   
+            border-radius: 25%;
+        }
+        #b4
+        {   
+            border-radius: 10%;
+        }
+        #b5
+        {   
+           
+            border: 3px solid green;
+           
+        }
+        #b6
+        {   
+            border-radius: 15%;
+        }
+        #b7
+        {   
+            border-radius: 50%;
+        }
+        #b8
+        {   
+            border-radius: 5%;
+        }
+        #b9
+        {   
+            border-radius: 0px 30px 0px 30px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <table border="1" id="tab" id="bl">
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+        </tr>
+        <tr>
+            <td>John </td>
+            <td>Joe</td>
+            <td>80</td>
+        </tr>
+    </table><br>
+    <table id="box">
+        <tr>
+            <td><div id="b1"></div></td>
+            <td><div id="b2"></div></td>
+            <td><div id="b3"></div></td>
+        </tr>
+        <tr>
+            <td><div id="b4"></div></td>
+            <td><div id="b5"></div></td>
+            <td><div id="b6"></div></td>
+        </tr>
+        <tr>
+            <td><div id="b7"></div></td>
+            <td><div id="b8"></div></td>
+            <td><div id="b9"></div></td>
+        </tr>
+        
+    </table>
+    
+</body>
+</html>
